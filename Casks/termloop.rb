@@ -2,7 +2,8 @@ cask "termloop" do
   version "1.0.11"
   sha256 "f5c1b3445c9d5fc41254101fb0bebc6fee2ed80eaf17903d929ce2cf034a2385"
 
-  url "https://github.com/feritzcan2/termloop/releases/download/v#{version}/termloop-macos.dmg"
+  url "https://github.com/feritzcan2/termloop/releases/download/v#{version}/termloop-macos.dmg",
+      verified: "github.com/feritzcan2/termloop/"
   name "TermLoop"
   desc "Native macOS terminal for AI coding agents"
   homepage "https://termloop.ai"
