@@ -1,6 +1,6 @@
 cask "termloop" do
-  version "1.0.17"
-  sha256 "29a0f1197c15e445148bf139cb62817c7a711e5406bb9bb66eb2491d0fd3b8ed"
+  version "1.0.18"
+  sha256 "df902d5bf31132054d7c52e5e0e0167a90b8f7b6e46da1a7b47cf220b99d8268"
 
   url "https://github.com/feritzcan2/termloop/releases/download/v#{version}/termloop-macos.dmg",
       verified: "github.com/feritzcan2/termloop/"
